@@ -1,0 +1,50 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 80vh;
+}
+
+.dark {
+    background-color: #2d2d36;
+    color: #ddd;
+}
+
+#app {
+    
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    padding: 10px;
+
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.btn {
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: 0.2ms all;
+}
+
+.dark .btn {
+    border-color: #333;
+    background-color: dodgerblue;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    margin: 1rem;
+    border: 1px solid;
+    border-radius: 10px;
+    outline: none;
+}
+
+.dark input {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ddd;
+}

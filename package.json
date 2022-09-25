@@ -1,0 +1,16 @@
+{
+  "name": "basic-renderer",
+  "version": "1.0.0",
+  "description": "A Basic Implementation of a Render Function",
+  "type": "module",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Henry Hale",
+  "license": "ISC"
+}
