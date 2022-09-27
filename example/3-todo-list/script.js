@@ -1,14 +1,4 @@
-import { VNode, isVNode } from "../../lib/1-virtual-node.js";
 import { el, h, build, mount } from "../../lib/index.js";
-
-// Raw Heading One
-const h1 = new VNode("h1", { 
-    title: "Heading One"
-}, "Hello, World!");
-
-// Output
-console.log(build(h1));
-// > 
 
 /**
  * HeadingView Component
